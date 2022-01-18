@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(245, 242, 238);
+}
+#book{
+    background-image: url("images/medcover.jpeg");
+}
+p, h3{
+    text-align: center;
+    margin: 20px;
+}
+#btn{
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 50px 50px 50px 50px;
+    width: 100px;
+}
+.row{
+    margin: 20px;
+}
