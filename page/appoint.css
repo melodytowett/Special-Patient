@@ -4,11 +4,11 @@ body{
 #book{
     background-image: url("images/medcover.jpeg");
 }
-p, h3{
+p, h3, h5{
     text-align: center;
     margin: 20px;
 }
-#btn{
+#btn, #btn1, #btn2, #btn3, #btn4, #btn5{
     margin-left: 150px;
     margin-top: 10px;
     border-radius: 50px 50px 50px 50px;
@@ -16,4 +16,19 @@ p, h3{
 }
 .row{
     margin: 20px;
+}
+.myForm, .myForm1, .myForm2, .myForm3, .myForm4, .myForm5{
+    margin: 10px;
+    display: none;
+}
+#show{
+    display: none;
+    height: 100px;
+    color: steelblue;
+    font-size: large;
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    background-color: skyblue;
 }

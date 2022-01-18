@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="appoint.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
     <title>Special patient</title>
 </head>
 <body>
@@ -28,17 +28,71 @@
             <div class="col-md-4">
                 <h5>Oncologist</h5>
                 <img src="/images/oncology.jpg" alt="" srcset="" width="300px">
-                <button type="button" id="btn">Book</button>
+                <form class="myForm" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="names" placeholder="Full names">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Phone number</label>
+                    <input type="text" class="form-control" id="number" placeholder="phone number">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea3" class="form-label">Add any information you would want us to know</label>
+                    <textarea class="form-control" id="mess" rows="3"></textarea>
+                  </div>
+                  </form>
+                  <button type="button"class="button"  id="btn">Book</button>
             </div>
             <div class="col-md-4"> 
                 <h5>Cardiologist</h5>
                 <img src="/images/cardio.jpg" alt="" srcset="" width="350px">
-                <button type="button" id="btn">Book</button>
+                <form class="myForm1" id="form">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="names" placeholder="Full names">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput2" class="form-label">Phone number</label>
+                        <input type="text" class="form-control" id="number" placeholder="phone number">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea3" class="form-label">Add any information you would want us to know</label>
+                        <textarea class="form-control" id="mess" rows="3"></textarea>
+                      </div>
+                      </form>
+                <button type="button" class="button" id="btn1">Book</button>
             </div>
             <div class="col-md-4">
                 <h5>Optician</h5>
                 <img src="/images/optician.jpg" alt="" srcset="" width="350px">
-                <button type="button" id="btn">Book</button>
+                <form class="myForm2" id="form">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="names" placeholder="Full names">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput2" class="form-label">Phone number</label>
+                        <input type="text" class="form-control" id="number" placeholder="phone number">
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea3" class="form-label">Add any information you would want us to know</label>
+                        <textarea class="form-control" id="mess" rows="3"></textarea>
+                      </div>
+                      </form>
+                <button type="button" class="button" id="btn2">Book</button>
             </div>
         </div>
       <div class="row">
@@ -46,19 +100,86 @@
               <!-- <div id="dent"> -->
               <h5>Dentist</h5>
               <img src="/images/dentist.jpg" alt="" srcset="" width="350px" height="270px">
-              <button type="button" id="btn">Book</button>
+              <form class="myForm3" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="names" placeholder="Full names">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Phone number</label>
+                    <input type="text" class="form-control" id="number" placeholder="phone number">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea3" class="form-label">Add any information you would want us to know</label>
+                    <textarea class="form-control" id="mess" rows="3"></textarea>
+                  </div>
+                  </form>
+              <button type="button" class="button" id="btn3">Book</button>
               <!-- </div> -->
           </div>
           <div class="col-md-4">
               <h5>Radiologist</h5>
               <img src="/images/radiologist.jpg" alt="" width="350px">
-              <button type="button" id="btn">Book</button>
+              <form class="myForm4" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="names" placeholder="Full names">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Phone number</label>
+                    <input type="text" class="form-control" id="number" placeholder="phone number">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea3" class="form-label">Add any information you would want us to know</label>
+                    <textarea class="form-control" id="mess" rows="3"></textarea>
+                  </div>
+                  </form>
+              <button type="button" class="button" id="btn4">Book</button>
           </div>
           <div class="col-md-4">
               <h5>Anaesthesiologist</h5>
               <img src="/images/anaest.jpg" alt="" width="350px" >
-              <button type="button" id="btn">Book</button>
+              <form class="myForm5" id="form">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="names" placeholder="Full names">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput2" class="form-label">Phone number</label>
+                    <input type="text" class="form-control" id="number" placeholder="phone number">
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea3" class="form-label">Add any information you would want us to know</label>
+                    <textarea class="form-control" id="mess" rows="3"></textarea>
+                  </div>
+                  </form>
+              <button type="button"  class="button" id="btn5">Book</button>
           </div>
+
+      </div>
+      <div class="row ">
+      <div id="show">
+          <p>Thankyou <span id="patient"></span> for booking an appointment. we have recievd your message and we will get back to you in 30 minutes.</p>
+      </div>
+      </div>
+      <div class="row">
+      <div class="footer">
+          <h6>Special patient</h6>
+          <p>Specialpatient@gamil.com</p>
+          <p>2022 by speacial petient athenians</p>
+      </div>
       </div>
     </div>
 </body>
