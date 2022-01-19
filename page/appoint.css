@@ -1,33 +1,43 @@
 body{
     background-color:rgb(245, 242, 238);
 }
-#book{
-    background-image: url("images/medcover.jpeg");
-}
+/* #book{
+    /* background-image: url("images/medcover.jpeg"); 
+} */
 p, h3, h5{
     text-align: center;
     margin: 20px;
 }
-#btn, #btn1, #btn2, #btn3, #btn4, #btn5{
-    margin-left: 150px;
+.button, .check{
+    margin-left: 450px;
     margin-top: 10px;
     border-radius: 50px 50px 50px 50px;
     width: 100px;
 }
+.check{
+    display: none;
+}
 .row{
     margin: 20px;
 }
-.myForm, .myForm1, .myForm2, .myForm3, .myForm4, .myForm5{
+.myForm{
     margin: 10px;
     display: none;
 }
-#show{
+.show{
     display: none;
-    height: 100px;
+    height: 200px;
     color: steelblue;
     font-size: large;
     font-weight: bold;
 }
+label{
+    font-size: large;
+    font-weight: bold;
+}
+/* #p, #p1{
+    display: none;
+} */
 .footer{
     text-align: center;
     background-color: skyblue;
