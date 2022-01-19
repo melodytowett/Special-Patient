@@ -21,3 +21,12 @@ body{
     background-color: rgb(7, 216, 253);
     padding-top: 30px;
 }
+
+.button{
+    background-color: rgb(7, 216, 253);
+    border: none;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+}
