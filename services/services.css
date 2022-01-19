@@ -1,0 +1,10 @@
+body{
+    padding: 3%;
+    text-align: center;
+    justify-content: center;
+}
+
+.services_row{
+    display: flex;
+    justify-content: space-evenly;
+}
