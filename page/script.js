@@ -18,11 +18,13 @@ $(".show").hide();
     var myName = $("#names").val();
     var myEmail = $("#email").val();
     var myPhoneNo = $("#number").val();
+    var myServices = $("#service").val();
     var myDoctor = $("#doctors").val();
-var myBooking = new Booking( myName, myEmail, myEmail, myPhoneNo, myDoctor)
+var myBooking = new Booking( myName, myEmail, myEmail, myPhoneNo, myDoctor, myServices)
 //alert("thankyou we have recevied")
 $("#p").show();
 $("#patient").html(myName);
+$("#service").html(myServices);
 $("#doc").html(myDoctor);
 $("#form").hide();
 $("#btn").show();
