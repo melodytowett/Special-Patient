@@ -9,25 +9,52 @@
     <title>Services</title>
 </head>
 <body>
-    <h1>
-        Our Services
-    </h1>
-
-    <p>
-        Personalized Care Every Step of the Way
-    </p>
-
-    <p>
-        Your health is our priority so we make it our business to ensure that you have 
-        access to the best technologies available in the world of medicine today. If you're not 
-        sure if we have what you need, feel free to contact us and we'll see what we can do about it.
-    </p>
+    <div class="introduction">
+        <h1>
+            Our Services
+        </h1>
+    
+        <p>
+            Personalized Care Every Step of the Way
+        </p>
+    
+        <p>
+            Your health is our priority so we make it our business to ensure that you have 
+            access to the best technologies available in the world of medicine today. If you're not 
+            sure if we have what you need, feel free to contact us and we'll see what we can do about it.
+        </p>
+    </div>
 
     <div class="services">
         <div class="services_row">
             <div class="services_row_item">
                 <img src="img/doctor _consultation.jpg" alt="image_of_a_person_reading_from_laptop_writing_on_notebook_and_a_stethoscope" height="300px" width="300px">
-                <p class="services_content">Doctor Consultation Services</p>
+
+                <div class="toggle" id="doctor_consultation_services">
+                    <p class="services_content">Doctor Consultation Services</p>
+
+                    <div class="specialists d-none">
+                        <p>These are some of the specialist doctors you can book and poointment with:</p>
+                        
+                        <ul>
+                            <li>Cardiologists</li>
+                            <li>Dermatologists</li>
+                            <li>Endocrinologists</li>
+                            <li>Gastroenterologists</li>
+                            <li>Hermatologist</li>
+                            <li>Infectious Disease Specialists</li>
+                            <li>Medical Geneticists</li>
+                            <li>Nephrologists</li>
+                            <li>Neurologists</li>
+                            <li>Oncologists</li>
+                            <li>Ophthalmologists</li>
+                            <li>Plastic Surgeons</li>
+                            <li>Psychiatrists</li>
+                            <li>Radiologists</li>
+                            <li>Rheumatologists</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <div class="services_row_item">
@@ -59,10 +86,14 @@
         </div>
     </div>
 
-    <button class="button">Book Appoitment</button>
-    
+    <div class="book_appointment">
+        <button class="button">Book Appointment</button>
+    </div>
+
+    <div>
         <p>Special Patient</p>
         <p>info@specialpatient.com</p>
     </div>
+
 </body>
 </html>

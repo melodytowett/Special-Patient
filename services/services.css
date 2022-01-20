@@ -30,3 +30,16 @@ body{
     font-size: 16px;
     border-radius: 20px;
 }
+
+.book_appointment{
+    padding: 3%;
+}
+
+  @media (max-width: 800px) {
+    .services_row {
+      flex-direction: column-reverse;
+    }
+    .services_row_item {
+      margin-bottom: 20px;
+    }
+  }
