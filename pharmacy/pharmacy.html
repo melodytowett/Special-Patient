@@ -17,19 +17,19 @@
 
         <div class="welcome">
             <h1 id="family">Welcome to our family!</h1>
-<div class="intro">
-            <h4>At our pharmacy, we know healthcare ia about more<br> than medication,we want every patient that we
-                serve<br> to be treated like they're a part of own family.</h4><br>
-            <input type="button" value="MEET US!" id="meet">
-        </div>
+            <div class="intro">
+                <h4>At our pharmacy, we know healthcare ia about more<br> than medication,we want every patient that we
+                    serve<br> to be treated like they're a part of own family.</h4><br>
+                <input type="button" value="MEET US!" id="meet">
+            </div>
         </div>
     </div>
 
     <div class="container">
         <div class="profile">
             <div class="deliver text-center">
-            <h3 style="color: blue;">WE DELIVER</h3>
-        </div>
+                <h3 style="color: blue;">WE DELIVER</h3>
+            </div>
             <div class="row">
 
                 <div class="col-md-3">
@@ -39,7 +39,7 @@
                             <div class="card-body">
                                 <h3 class="card-title" style="color: blue;">Order Drugs from us</h3>
                                 <p class="card-text">Always there for you.Ask your friend ask a pharmacist </p>
-                                <a href="" class="card-link">Read More</a>
+                            
                             </div>
                         </div>
                     </div>
@@ -88,24 +88,24 @@
     <div class="container">
         <div class="row">
             <div class="options">
-                <h2>Pill Packing Option</h2>
+                <h2 style="color: blue;">Pill Packing Option</h2>
             </div>
             <div class="drugs">
                 <div class="pills">
                     <img src="images/phamacy pills1.jpeg" height="200">
                     <h4>Blister Packging</h4>
-                  
+
                 </div>
 
                 <div class="pills">
                     <img src="images/phamacy pills2.jpeg" height="200">
                     <h4>Pill Bottle Packaging</h4>
-                   
+
                 </div>
                 <div class="pills">
                     <img src="images/sachets.jpeg" height="200">
                     <h4>Sachets Packging</h4>
-                   
+
                 </div>
             </div>
 
@@ -117,19 +117,19 @@
                 <div class="pills">
                     <img src="images/vial.jpeg" height="200">
                     <h4>Spring Packging</h4>
-                    
+
                 </div>
 
                 <div class="pills">
                     <img src="images/box packing.jpg" height="200">
                     <h4>Box Packging</h4>
-                    
+
                 </div>
                 <div class="pills">
                     <img src="images/spring.jpeg" height="200">
-                   
+
                     <h4>Vial Packging</h4>
-   
+
                 </div>
             </div>
 
@@ -141,7 +141,7 @@
             <h1>Phamacitical PRICES</h1>
             <br>
             <div class="row">
-                
+
                 <div class="col-sm-4">
                     <h3>Drugs Prices</h3>
                     <ol>
@@ -191,23 +191,23 @@
                 <div class="DRUGS">
                     <label for="Type of Drugs">Drugs:</label><br>
                     <select id="drugs" name="drugs">
-                        <option value="0">Select drugs</option>
+                        <option value="">Select drugs</option>
                         <option value="1200">Tramadol</option>
-                        <option value="800">Methadone</option>
-                        <option value="700">Omeprazole</option>
-                        <option value="800">Benzanotate</option>
-                        <option value="700">Cephalexin</option>
+                        <option value="1000">Methadone</option>
+                        <option value="800">Omeprazole</option>
+                        <option value="1100">Benzanotate</option>
+                        <option value="900">Cephalexin</option>
                     </select><br>
                 </div>
                 <div class="DRUGS">
                     <label for="Type of Packaging">Packaging:</label><br>
                     <select id="packaging" name="packaging">
-                        <option value="1">Select Type of Packaging</option>
-                        <option value="2">vial</option>
-                        <option value="3">Bottles</option>
-                        <option value="4">Sachets</option>
-                        <option value="5">Boxes</option>
-                        <option value="6">Blister packs</option>
+                        <option value="">Select Type of Packaging</option>
+                        <option value="150">vial</option>
+                        <option value="200">Bottles</option>
+                        <option value="230">Sachets</option>
+                        <option value="240">Boxes</option>
+                        <option value="130">Blister packs</option>
                     </select><br>
 
                 </div>
@@ -224,9 +224,9 @@
             <div id="form">
                 <h2>Talk to us</h2>
                 <div class="form-group">
-                    <label for="EMAIL">Email Address <span class="email">*</span>
+                    <label for="EMAIL">Email Address</label>
                     </label><br>
-                    <input type="email" value="" name="EMAIL" class="required email" id="email">
+                    <input type="email" value="enter email" name="EMAIL" class="required email" id="email">
                 </div>
                 <div class="form-group">
                     <label for="FNAME">Name </label><br>
@@ -234,7 +234,7 @@
                 </div>
                 <div class="form-group">
                     <label for="PHONE">Phone Number </label><br>
-                    <input type="text" name="PHONE" class="" value="" id="phone">
+                    <input type="number" name="PHONE" class="" value="" id="phone">
                 </div>
                 <div class="form-group">
                     <label for="message">Your Message </label><br>
@@ -244,10 +244,14 @@
                 <input type="button" value="Submit" onclick="Submit(); return false"><br><br>
             </div>
         </div>
-        
+
     </div>
 
-        
+    <select name="delivery-selection" id="delivery" class="delivery">
+        <option value="delivery">i want delivery</option>
+        <option value="don't deliver">i dont want delivery</option>
+    </select>
+
 
     <div class="card-footer text-center">
         <h3>Contact Us</h3><br>

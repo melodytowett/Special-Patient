@@ -1,9 +1,4 @@
 
-  $(document).ready(function(){
-    $("#family").click(function(){
-      $(".intro").slideToggle("slow");
-    });
-  });
 
   function Submit(){
     var getEmail =document.getElementById("email").value;
@@ -41,24 +36,63 @@ console.log(getName);
     alert("THank You " + getName + " for reaching out to us,we will get back to you as soon as possible")
 }
 function order(){
-    var getDrugs = document.getElementById("packaging").value;
-    var getpackaging = document.getElementById("drugs").value;
-    var getQuantity = document.getElementById("quantity").value;
+    var getDrugs = document.getElementById("drugs").value;
+    var getPackaging = document.getElementById("packaging").value;
+    var getQuantity = document.getElementById ("quantity").value;
+    var getCost = (parseInt(getDrugs) + parseInt(getPackaging)) *getQuantity;
+ var Delivery = document.getElementById("delivery").value;
 
-    var calculate = (parseInt(getDrugs) + parseInt(getpackaging)) * quantity;
 
-    if (getDrugs == ""){
-        alert("please indicate the drug you need");
-        return false;
+    function getDrugs() {
+        if (getDrugs == "") {
+            alert("please place the type of drug you need ");
+            return false;
+        }
     }
 
-    if ( getpackaging  == ""){
-        alert("please indicate how you want it packaged");
-        return false;
+    function getPackaging() {
+        if ( getPackaging== "") {
+            alert("choose your choice oF packaging");
+            return false;
+        }
     }
-    if (getQuantity == "" || getQuantity <=0 ){
-        alert("please provide a positive number");
-        return false;
+
+    function getQuantity() {
+        if (getQuantity == "" || getQuantity <= 0) {
+            alert("choose quantity");
+            return false;
+
+        }
     }
-    alert("Your drugs will cost you " + calculate + "Thank you for buying from us." )
+    alert("You have ordered " + getQuantity + "doses of " + getDrugs + " packaged in " + getPackaging + " at a cost of " + getCost + " " + " thanks for shopping with us");
 }
+
+
+
+
+/*
+function getDelivery(){
+    if (getDelivery == "don't deliver") {
+        alert("Thank you for shopping with us");
+        
+    }
+    else  var location = prompt("Please Enter your Location");
+alert("Your drugs will be delivered in " + location + " with an extra cost of ksh 200.");
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

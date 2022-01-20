@@ -58,6 +58,7 @@ display: flex;
 
 #form{
     margin-left: 30%;
+   
   
 }
 .fom{
@@ -106,8 +107,11 @@ display: flex;
     width: 240px;
     height: 30px;
 }
+.card-footer{
+background-color: rgba(78, 78, 190, 0.548);
+}
 
-/*
+
 .transfer{
     background-color: blue;
     box-sizing: content-box;
