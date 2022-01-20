@@ -1,7 +1,82 @@
 body{
-    padding: 3%;
     text-align: center;
     justify-content: center;
+}
+
+
+* {
+  box-sizing:border-box;
+  margin: 0%;
+  padding: 0%;
+  
+}
+header{
+  /* background-image: url(img/backgrnd2.jpeg); */
+  background-size:cover;
+  background-position: center center;
+  height: 5vh;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 16px;
+  background-color:lightblue;
+  display: flex;
+  justify-content: space-between;
+  height: 99px;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+a{
+  text-decoration: none;
+}
+header li{
+  display: inline-block;
+  align-items: inline;
+  padding-top: 4.5vh;
+  padding-bottom: 3rem;
+  padding-left: 10rem;
+  /* list-style: 20rem; */
+
+}
+.logo{
+  cursor: pointer;
+
+}
+.nav-area{
+  list-style: none;
+}
+.nav-area li{
+  display: inline-block;
+  padding: 0% 15px;
+  text-transform: uppercase;
+}
+.nav-area li a{
+  transition: .3s;
+  color: #fff;
+  
+}
+.nav-area li a:hover{
+  color:#d22938
+}
+.btn-area{
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background: #d22938;
+
+
+}
+.navbar{
+  display: flex;
+
+}
+
+.introduction{
+  padding-top: 3%;
 }
 
 .services_row{
@@ -10,20 +85,34 @@ body{
     padding-top: 4%;
 }
 
-.services_row_item{
-
+.services_paragraph{
+  background-color: skyblue;
+  padding-top: 10%;
+  height: 100px;
+  justify-content: center;
+  font-weight: bold;
 }
 
 .services_content{
-    height: 100px;
+    height: 400px;
     width: 300px;
     justify-self: center;
-    background-color: rgb(7, 216, 253);
-    padding-top: 30px;
+    background-color: skyblue;
+    margin-top: -8%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#specialists, #lab_services, #pharmacy_services, #nutrition_services, #medical_devices, #vaccination_services{
+    display: none;
 }
 
 .button{
-    background-color: rgb(7, 216, 253);
+    background-color: skyblue;
     border: none;
     color: black;
     padding: 20px;
