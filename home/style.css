@@ -1,0 +1,122 @@
+* {
+    box-sizing:border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+header{
+    /* background-image: url(img/backgrnd2.jpeg); */
+    background-size:cover;
+    background-position: center center;
+    height: 5vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    background-color:lightblue;
+    display: flex;
+    justify-content: space-between;
+    height: 99px;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+a{
+    text-decoration: none;
+}
+header li{
+    display: inline-block;
+    align-items: inline;
+    padding-top: 4.5vh;
+    padding-bottom: 3rem;
+    padding-left: 10rem;
+    /* list-style: 20rem; */
+
+}
+.logo{
+    cursor: pointer;
+
+}
+.nav-area{
+    list-style: none;
+}
+.nav-area li{
+    display: inline-block;
+    padding: 0% 15px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+    transition: .3s;
+    color: #fff;
+    
+}
+.nav-area li a:hover{
+    color:#d22938
+}
+.btn-area{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #d22938;
+
+
+}
+.navbar{
+    display: flex;
+
+}
+.body1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height:2.5rem;
+    font-weight: 15px;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(138, 184, 199);
+}
+.body1 img{
+    padding-top: 3rem;
+    padding-left: 19rem;
+    padding-right: 2rem;
+
+}
+.body1 h2{
+    padding-left: 17rem;
+    font-weight: 1000;
+    font-size: 27px;
+}
+.facility{
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    /* line-height: 5rem; */
+}
+.facility h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 4rem;
+    font-size: 50px;
+    padding-top: 2rem;
+    color: rgb(75, 131, 150);
+}
+.facility p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(75, 131, 150);
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+.yes{
+    padding-left: 5rem;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
