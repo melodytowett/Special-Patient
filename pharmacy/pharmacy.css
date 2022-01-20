@@ -1,134 +1,226 @@
-.head{
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    /* background-image: url(img/backgrnd2.jpeg); */
+    background-size: cover;
+    background-position: center center;
+    height: 5vh;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    height: 99px;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header li {
+    display: inline-block;
+    align-items: inline;
+    padding-top: 4.5vh;
+    padding-bottom: 3rem;
+    padding-left: 10rem;
+    /* list-style: 20rem; */
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-area {
+    list-style: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0% 15px;
+    text-transform: uppercase;
+}
+
+.nav-area li a {
+    transition: .3s;
+    color: #fff;
+}
+
+.nav-area li a:hover {
+    color: #d22938
+}
+
+.btn-area {
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #D22938;
+}
+
+.navbar {
+    display: flex;
+}
+
+
+.head {
     font-size: medium;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    color:white;
-   background-image: url(images/pharmacy\ team.jpg);
-  background-size: cover;
-  height: 400px;
-  background-repeat: no-repeat;
-   
+    color: white;
+    background-image: url(images/pharmacy\ team.jpg);
+    background-size: cover;
+    height: 400px;
+    background-repeat: no-repeat;
+
 }
-.profile{
-   margin: 50px;
+
+.profile {
+    margin: 50px;
 }
-.welcome{
- padding-left: 35%;
- padding-top: 60px;
- 
+
+.welcome {
+    padding-left: 35%;
+    padding-top: 60px;
+
 }
 
 
-#meet{
+#meet {
     margin-top: -50px;
     background-color: blue;
 }
-.transfer{
+
+.transfer {
     background-color: blue;
 }
-.Delivery{
+
+.Delivery {
     background-color: yellow;
 }
-.drugs{
+
+.drugs {
     display: flex;
-   
-  
+
+
 }
-   .options{
-       margin-left: 40px;
-   } 
-.pills{
+
+.options {
+    margin-left: 40px;
+}
+
+.pills {
     margin-left: 30px;
 
 }
-.drugs2{
 
-display: flex;
+.drugs2 {
+
+    display: flex;
 
 }
-.card mb-2{
+
+.card mb-2 {
     display: flex;
 }
-.section{
+
+.section {
     display: flex;
 }
-.packing{
+
+.packing {
     text-align: center;
 }
 
-#form{
+#form {
     margin-left: 30%;
-   
-  
+
+
 }
-.fom{
+
+.fom {
     display: flex;
     background-image: url(/images/phamacy\ background.jpeg);
     background-repeat: no repeat;
     background-size: cover;
 }
-.prescription{
+
+.prescription {
     margin-left: 25%;
     margin: 30px;
-    
+
 }
 
-.card-footer{
+.card-footer {
     margin: 10px;
 }
-.DRUGS{
+
+.DRUGS {
     width: 300px;
 }
 
 
-#email{
+#email {
     width: 300px;
     color: transparent;
 }
-#fname{
-    width: 300px;  
-}
-#phone{
+
+#fname {
     width: 300px;
 }
-#Message{
+
+#phone {
+    width: 300px;
+}
+
+#Message {
     width: 300px;
     height: 100px;
 }
-#packaging{
+
+#packaging {
     width: 240px;
     height: 30px;
 }
-#drugs{
+
+#drugs {
     width: 240px;
     height: 30px;
 }
-#quantity{
+
+#quantity {
     width: 240px;
     height: 30px;
 }
-.card-footer{
-background-color: rgba(78, 78, 190, 0.548);
+
+.card-footer {
+    background-color: skyblue;
 }
 
 
-.transfer{
+.transfer {
     background-color: blue;
     box-sizing: content-box;
 }
-.meet{
-    background-color: blue; 
+
+.meet {
+    background-color: blue;
     box-sizing: content-box;
 
-    
-
-    
-    
-    
-
 }
-.Delivery{
-    background-color: blue; 
-     box-sizing: content-box;
+
+.Delivery {
+    background-color: blue;
+    box-sizing: content-box;
 
 }

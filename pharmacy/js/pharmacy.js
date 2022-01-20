@@ -40,8 +40,8 @@ function order(){
     var getPackaging = document.getElementById("packaging").value;
     var getQuantity = document.getElementById ("quantity").value;
     var getCost = (parseInt(getDrugs) + parseInt(getPackaging)) *getQuantity;
- var Delivery = document.getElementById("delivery").value;
 
+    console.log(getDrugs);
 
     function getDrugs() {
         if (getDrugs == "") {
@@ -64,22 +64,12 @@ function order(){
 
         }
     }
-    alert("You have ordered " + getQuantity + "doses of " + getDrugs + " packaged in " + getPackaging + " at a cost of " + getCost + " " + " thanks for shopping with us");
+    alert("You have purchased " + getQuantity  +  " doses and your drugs  will cost you " +  getCost + " " + " thanks for shopping with us");
 }
 
 
-
-
-/*
-function getDelivery(){
-    if (getDelivery == "don't deliver") {
-        alert("Thank you for shopping with us");
-        
-    }
-    else  var location = prompt("Please Enter your Location");
-alert("Your drugs will be delivered in " + location + " with an extra cost of ksh 200.");
-}
-*/
+    
+ 
 
 
 
