@@ -1,0 +1,130 @@
+.head{
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+   background-image: url(images/pharmacy\ team.jpg);
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+   
+}
+.profile{
+   margin: 50px;
+}
+.welcome{
+ padding-left: 35%;
+ padding-top: 60px;
+ 
+}
+
+
+#meet{
+    margin-top: -50px;
+    background-color: blue;
+}
+.transfer{
+    background-color: blue;
+}
+.Delivery{
+    background-color: yellow;
+}
+.drugs{
+    display: flex;
+   
+  
+}
+   .options{
+       margin-left: 40px;
+   } 
+.pills{
+    margin-left: 30px;
+
+}
+.drugs2{
+
+display: flex;
+
+}
+.card mb-2{
+    display: flex;
+}
+.section{
+    display: flex;
+}
+.packing{
+    text-align: center;
+}
+
+#form{
+    margin-left: 30%;
+  
+}
+.fom{
+    display: flex;
+    background-image: url(/images/phamacy\ background.jpeg);
+    background-repeat: no repeat;
+    background-size: cover;
+}
+.prescription{
+    margin-left: 25%;
+    margin: 30px;
+    
+}
+
+.card-footer{
+    margin: 10px;
+}
+.DRUGS{
+    width: 300px;
+}
+
+
+#email{
+    width: 300px;
+    color: transparent;
+}
+#fname{
+    width: 300px;  
+}
+#phone{
+    width: 300px;
+}
+#Message{
+    width: 300px;
+    height: 100px;
+}
+#packaging{
+    width: 240px;
+    height: 30px;
+}
+#drugs{
+    width: 240px;
+    height: 30px;
+}
+#quantity{
+    width: 240px;
+    height: 30px;
+}
+
+/*
+.transfer{
+    background-color: blue;
+    box-sizing: content-box;
+}
+.meet{
+    background-color: blue; 
+    box-sizing: content-box;
+
+    
+
+    
+    
+    
+
+}
+.Delivery{
+    background-color: blue; 
+     box-sizing: content-box;
+
+}
