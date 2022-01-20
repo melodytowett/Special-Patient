@@ -4,6 +4,21 @@ body{
 /* #book{
     /* background-image: url("images/medcover.jpeg"); 
 } */
+.navbar-nav{
+    color: black;
+    margin-left: 400px;
+    justify-content: space-around;
+}
+.nav-link{
+    margin-left: 30px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    
+}
+.navbar{
+    background-color: skyblue;
+}
 p, h3, h5{
     text-align: center;
     margin: 20px;
