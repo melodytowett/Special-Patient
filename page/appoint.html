@@ -60,7 +60,8 @@
 
       <div class="row"> 
         <h3>Book Now And get Checked with a specialist!</h3>
-        <form class="myForm" id="form" onsubmit="return validateForm()">
+        <button type="button"  class="button" id="btn" >Book</button>
+        <form class="myForm" id="form">
           <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">Name</label>
               <input type="text" class="form-control" id="names" placeholder="Full names" required>
@@ -88,9 +89,8 @@
               <label for="exampleFormControlTextarea3" class="form-label">Add any information you would want us to know</label>
               <textarea class="form-control" id="mess" rows="3"></textarea>
             </div>
-            </form>
-        <button type="submit"  class="button" id="btn" >Book</button>
-        <button type="submit" class="check" id="check">Checkout</button>
+            <button type="submit" class="check" id="check" >Checkout</button>
+          </form>
         <div class="show" id="p">
           <p>Thankyou <span id="patient"></span> for booking an appointment with the <span id="doc"></span><br> we have recieved your message and we will get back to you in 30 minutes.
             <br>For other services check on our page and let us know what we can do more</p>
